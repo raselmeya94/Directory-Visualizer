@@ -101,7 +101,9 @@ python directory_visualizer.py -p <directory_path> -f <format> -o <output_file>
 `-f` or `--format` (Required): The format for the output file. It can be one of the following:
 
 `markdown` — Generates the directory structure in Markdown format.
+
 `mermaid` — Generates the directory structure in Mermaid diagram format.
+
 `-o` or `--output` (Required): The file path where the generated output will be saved.
 
 ### Example Usage:
