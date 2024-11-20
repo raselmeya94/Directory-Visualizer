@@ -17,7 +17,7 @@ def generate_markdown(directory, markdown_file):
         """
         special_chars = ['#', '*', '!', '[', ']', '(', ')', '{', '}', '<', '>', '`']
         for char in special_chars:
-            name = name.replace(char, '\\' + char)
+            name = name.replace(char, '' + char)
         return name
 
     def traverse_directory(path, level=1, markdown_file=None):
@@ -61,7 +61,7 @@ def generate_mermaid(directory, mermaid_file):
         """
         special_chars = ['(', ')', '{', '}', '[', ']', '#', '.', ',', ';']
         for char in special_chars:
-            name = name.replace(char, '\\' + char)
+            name = name.replace(char, '' + char)
         return name
     
     def regenerate_filename(name):
