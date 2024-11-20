@@ -1,33 +1,80 @@
-# Directory Visualizer
+# About Directory-Visualizer
 
-## Overview
-Directory Visualizer is a Python tool that takes a directory path and generates a markdown file visualizing the structure of that directory. This tool is helpful for users who want to document the file structure of large directories.
+**Directory-Visualizer** is a tool designed to help users visualize their directory structure in a clean and easy-to-understand flowchart. It takes a directory path as input, traverses the directory structure, and generates a diagram of the folder and file hierarchy, making it simple to explore large and complex file systems.
 
 ## Features
-- Recursively visualizes directory structures.
-- Generates markdown files with indentation to show subdirectory relationships.
-  
+
+- **Recursive Directory Traversal**: Automatically explores all subdirectories within the provided directory.
+- **Mermaid Diagram Generation**: Converts the directory structure into a **Mermaid.js** flowchart syntax.
+- **SVG Image Export**: Converts the Mermaid diagram into an SVG image, which can be used for documentation or visual analysis.
+- **Customizable**: Easily extendable to support different file formats and output types.
+
+## How It Works
+
+1. **Input**: Provide the path to a directory on your local machine.
+2. **Traversal**: The tool recursively scans the directory and all its subdirectories.
+3. **Mermaid Syntax**: Generates a Mermaid flowchart code representing the directory structure.
+4. **Output**: The Mermaid diagram can be saved as:
+    - A **Markdown** file.
+    - An **SVG image** for easy viewing and sharing.
+
 ## Installation
-To get started, clone the repository and install any required dependencies.
 
+### Prerequisites
+Ensure you have the following installed:
+- **Python 3.6+** (for running the script)
+- **Mermaid** (for rendering flowcharts)
 
-## Usage
-Run the main script to generate a markdown file visualizing the directory structure.
+### Steps to Install
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/directory-visualizer.git
+```
+###Navigate into the directory:
 
 ```bash
-python src/directory_visualizer.py
 
-### Explanation:
-- **Overview**: Describes the purpose of the project.
-- **Features**: Lists key features.
-- **Installation**: Provides instructions to set up the project.
-- **Usage**: Describes how to run the script and what the user should expect.
+cd directory-visualizer
+```
 
----
+### Install the required dependencies by running:
 
-### 5. **`requirements.txt`** (Dependencies)
+```bash
+pip install -r requirements.txt
+```
+After installation, navigate to the src folder:
 
-If you have any dependencies, you can list them in this file. For this simple project, you don’t need any additional libraries yet, but you can list `pytest` or `unittest` for testing purposes.
+```bash
+cd src
+```
+Now, run the tool using the following command:
 
-```txt
-pytest
+```bash
+python directory_visualizer.py
+```
+## Usage
+### Step-by-Step Usage
+#### Input: After running the directory_visualizer.py script, it will prompt you for the following inputs:
+
+#### Directory Path: Enter the path to the directory you want to visualize.
+#### Output Format: Choose between markdown or mermaid as the output format.
+#### Generate the Diagram: The script will generate the directory structure in the chosen format and save it to a file.
+
+Example:
+Run the script in the src folder:
+
+```bash
+python directory_visualizer.py
+```
+Enter the directory path when prompted:
+
+```bash
+Enter the directory path: /path/to/your/directory
+```
+Choose the format for the output file:
+
+```bash
+Enter the format (markdown/mermaid): markdown
+```
+The tool will generate a directory structure in the desired format and save it to a file.
