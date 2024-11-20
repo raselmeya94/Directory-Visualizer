@@ -82,3 +82,36 @@ The tool will generate a directory structure in the desired format and save it t
 ## Example of the output:
 
 [markdown](../output/directory_structure_md.md) || [mermaid](../output/directory_structure_mmd.md)
+
+
+
+
+## CLI Usage
+
+The **Directory Visualizer** script allows you to generate visualizations of a directory structure in either **Markdown** or **Mermaid** format through the command line interface (CLI).
+
+### Command Syntax:
+
+```bash
+python directory_visualizer.py -p <directory_path> -f <format> -o <output_file>
+```
+### Arguments:
+`-p` or `--path`(Required): The absolute or relative path to the directory you want to visualize.
+
+`-f` or `--format` (Required): The format for the output file. It can be one of the following:
+
+`markdown` — Generates the directory structure in Markdown format.
+`mermaid` — Generates the directory structure in Mermaid diagram format.
+`-o` or `--output` (Required): The file path where the generated output will be saved.
+
+### Example Usage:
+To generate a Markdown-formatted directory structure:
+
+```bash
+python directory_visualizer.py -p "/path/to/your/directory" -f markdown -o output.md
+```
+To generate a Mermaid formatted directory structure:
+
+```bash
+python directory_visualizer.py -p "/path/to/your/directory" -f mermaid -o output.mmd
+```
