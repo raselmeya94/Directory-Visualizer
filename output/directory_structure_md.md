@@ -1,0 +1,27 @@
+# Directory Structure of /Users/ainiton/Rasel_data_scientist/Rasel Personal Info/RAG-LIST/RAGpedia
+
+- # RAGpedia
+  - CODE_OF_CONDUCT.md
+  - generate_line_plot.py
+  - RAG-LIST.md
+  - .DS_Store
+  - LICENSE
+  - ## docs
+    - ### HtmlRAG
+      - HtmlRAG.md
+    - ### EasyRAG
+      - EasyRAG.md
+    - ### book
+  - README.md
+  - CONTRIBUTING.md
+  - ## assets
+    - .DS_Store
+    - publication_daywise_line_plot.png
+    - ### Rag-images
+      - #### untitled folder
+        - .DS_Store
+        - ##### dd
+          - .DS_Store
+          - ##### f
+      - .DS_Store
+      - Overview of EasyRAG.png

@@ -122,11 +122,11 @@ def main():
     
     if format=="markdown":
     # Specify the output markdown file
-        output_markdown = "output/directory_structure.md"
+        output_markdown = "output/directory_structure_md.md"
         generate_markdown(directory_path, output_markdown)
         print(f"Directory structure has been saved to {output_markdown}")
     else:
-        output_mermaid = "output/directory_structure.md"
+        output_mermaid = "output/directory_structure_mmd.md"
         generate_mermaid(directory_path, output_mermaid)
         print(f"Directory structure has been saved in Mermaid format to {output_mermaid}")
 

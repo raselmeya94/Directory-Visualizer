@@ -78,3 +78,7 @@ Choose the format for the output file:
 Enter the format (markdown/mermaid): markdown
 ```
 The tool will generate a directory structure in the desired format and save it to a file.
+
+## Example of the output:
+
+[markdown](../output/directory_structure_md.md) || [mermaid](../output/directory_structure_mmd.md)
