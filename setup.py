@@ -4,7 +4,7 @@ setup(
     name="directory-visualizer", 
     version="0.1.0",  
     author="Md. Rasel Meya",
-    author_email="rhrasel94@gmail.com",
+    author_email="raselmeya2194@gmail.com",
     description="A CLI tool to visualize directory structures as Markdown or Mermaid diagrams",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
@@ -18,7 +18,7 @@ setup(
     python_requires=">=3.6",
     entry_points={
         "console_scripts": [
-            "directory-visualizer=visualizer.visualizer:run_visualizer",
+            "directory-visualizer=directory_visualizer.visualizer:run_visualizer",
         ],
     },
     include_package_data=True,
