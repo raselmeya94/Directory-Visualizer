@@ -145,8 +145,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Md. Rasel Meya**
 
-- Email: [rhrasel94@gmail.com](mailto:rhrasel94@gmail.com)
-- GitHub: [raselmeya94](https://github.com/raselmeya94)
+ [Email](mailto:raselmeya2194@gmail.com) || [LinkedIn](https://www.linkedin.com/in/raselmeya/)
+
 
 ## Acknowledgements
 
